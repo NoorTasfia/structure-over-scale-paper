@@ -1,0 +1,3 @@
+datasets>=2.19
+jedi>=0.19
+openai>=1.40
