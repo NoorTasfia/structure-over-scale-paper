@@ -43,7 +43,7 @@
 <body>
 
 <h1>Structure over Scale: When Do Code-Navigation Tools Compensate for Smaller, Quantized Gemma&nbsp;4 Agents?</h1>
-<p class="byline"><span class="fillme">[FILL AUTHOR NAMES BEFORE UPLOAD]</span>. Code, all 900 trajectories, and analysis: <a href="https://github.com/NoorTasfia/structure-over-scale-paper">github.com/NoorTasfia/structure-over-scale-paper</a> (public as of this submission).</p>
+<p class="byline"><strong>Tasfia Noor Chowdhury</strong> (Robotics &amp; Mechatronics Engineering, University of Dhaka) and <strong>Md Ibrahim Khalil</strong> (Institute of Information Technology, University of Dhaka). Code, all 900 trajectories, and analysis: <a href="https://github.com/NoorTasfia/structure-over-scale-paper">github.com/NoorTasfia/structure-over-scale-paper</a> (public as of this submission).</p>
 
 <div class="abstract"><p><span class="ah">Abstract.</span>Coding agents on consumer hardware must trade model size against precision. We ask whether <em>structure</em> — code-graph navigation tools and repository maps — can buy back what <em>scale</em> gives up. We run 900 bug-localization episodes on SWE-bench Lite across five Gemma&nbsp;4 configurations (12B, E4B, E2B at Q4_0; E2B also at Q8_0 and BF16) and three toolsets on a single RTX&nbsp;4070 (12&nbsp;GB). Graph tools help every configuration (pooled +5.3 points, p=0.031). A repository map, however, <em>crosses over</em>: it hurts the strongest model (−20 points) and helps the weakest (+10 points; interaction +30 points, p&lt;0.0001). Quantizing E2B to Q8 is free; Q4 halves accuracy. The 12B model fails for a reason nobody's leaderboard shows: its thinking overruns the reply budget at exactly the moment it must answer.</p></div>
 

@@ -1,6 +1,6 @@
 # Structure over Scale: When Do Code-Navigation Tools Compensate for Smaller, Quantized Gemma 4 Agents?
 
-*Authors: [FILL NAMES BEFORE UPLOAD]. Code, all 900 trajectories, and analysis: https://github.com/NoorTasfia/structure-over-scale-paper (public as of this submission).*
+*Tasfia Noor Chowdhury (Robotics & Mechatronics Engineering, University of Dhaka) and Md Ibrahim Khalil (Institute of Information Technology, University of Dhaka). Code, all 900 trajectories, and analysis: https://github.com/NoorTasfia/structure-over-scale-paper (public as of this submission).*
 
 ## Abstract
 
